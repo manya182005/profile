@@ -1,49 +1,17 @@
-#  Personal Profile
+# Initialize a new Git repository
+git init
 
-##  Basic Information
-- **Name:** Manyashree R 
-- **Email:** manyashreemanya775@gmail.com 
-- **Phone:** 1234567890 
-- **Location:** benglore, india 
-- 
+# Add the README.md file
+git add README.md
 
-## 🎓 Academic Information
-- **Highest Qualification:** BCA  
-- **University/Institution:** PES University  
-- **Year of Graduation:** 2026  
+# Commit the file
+git commit -m "Initial commit - Personal Profile"
 
+# Create a new GitHub repository manually on GitHub, then add the remote repository URL
+git remote add origin <your-github-repository-url>
 
-## 🛠️ Skill Set
-### **Programming Languages:**
-- Python  
-- JavaScript  
-- Java  
-- C++  
+# Set the main branch
+git branch -M main
 
-### **Web Development:**
-- HTML, CSS, JavaScript  
-
-### **Database Management:**
-- MySQL, Firebase  
-
-### **Cloud Technologies:**
-- AWS, Google Cloud,  
-
-### **Tools & Platforms:**
-- Git, GitHub,  
-
-### **Soft Skills:**
-- Communication  
-- Teamwork  
-- Problem-Solving  
-- Leadership  
-
-## 🚀 Projects & Experience
-### **Projects:**
-- **[cloud kitchen ]** - On process 
-
-### **Experience:**
-
-- **[Internship ]** - [datasphere, 10 months]  
-
----
+# Push the code to GitHub
+git push -u origin main
